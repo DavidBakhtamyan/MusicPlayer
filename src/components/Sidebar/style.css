@@ -1,0 +1,84 @@
+.Sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: #12192C; 
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 50px 0 40px;
+    font-size: 15px;
+}
+.SidebarList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.SidebarList li{
+    display: flex;
+    gap: 20px;
+    align-items: center;    
+}
+.active{
+    color: #1DB954;
+    position: relative;
+}
+.active::before{
+    content: "";
+    position: absolute;
+    left: -65px;
+    height: 15px;
+    width: 90px;
+    background: rgb(29,185,84);
+    background: linear-gradient(90deg, rgba(29,185,84,1) 0%, rgba(29,185,84,1) 6%, rgba(29,185,84,1) 6%, rgba(26,188,102,1) 6%, rgba(26,188,102,1) 7%, rgba(255,255,255,0) 100%);
+}
+.SidebarHeading{
+    margin-bottom: 20px;
+    color: #1DB954;
+}
+.SidebarListHeading{
+    color: #ce3e61;
+}
+.SidebarBtn{
+    background-color: transparent;
+    border: 3px solid #1DB954;
+    outline: none;
+    color: #1DB954;
+    padding: 7px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: max-content;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.profilePic img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.profileName{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.profileUsername{
+    font-weight: 700;
+}
+.profileNamePremium{
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 0px 5px;
+}

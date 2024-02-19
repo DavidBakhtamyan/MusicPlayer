@@ -1,6 +1,4 @@
 .App{
-  background-image: linear-gradient(to right top, #085675, #175888, #3b5695, #62519b, #894697, #993b87, #a53076, #ad2762, #a3264e, #97273c, #8a292d, #7b2b20);
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  background-color: #171E31;
+  color: white;
 }
