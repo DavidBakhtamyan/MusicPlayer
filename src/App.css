@@ -1,4 +1,5 @@
 .App{
   background-color: #171E31;
   color: white;
+  display: flex;
 }
