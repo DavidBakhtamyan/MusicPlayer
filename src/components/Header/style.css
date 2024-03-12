@@ -1,6 +1,7 @@
 .Header{
     display: flex;
-    margin: 20px 20px 0 10px;
+    margin-top: 20px;
+    padding: 0 10px;
     justify-content: space-between;
     height: max-content;
     flex: 1;
